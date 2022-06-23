@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 4%;
+    border-radius: 3%;
+}
+
+.display-box {
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 3%;
+    min-width: 220px;
+    min-height: 35px;
+    margin: 5% 5% 5% 1%;
+}
+
+.button {
+    padding: 10%;
+    margin: 2%;
+    background: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    min-width: 80px;
+    min-height: 50px;
+    font-size: 1.3rem;
+}
